@@ -102,9 +102,9 @@ public class EmployeeControllerTest {
         ObjectMapper mapper = new ObjectMapper();
 
         Employee emp = new Employee();
-        emp.setFirstName("Jack");
-        emp.setLastName("Sparrow");
-        emp.setEmail("blackpearl@pirates.caribbean");
+        emp.setFirstName("Black");
+        emp.setLastName("Pearl");
+        emp.setEmail("jsparrow@pirates.caribbean");
 
         mvc.perform(MockMvcRequestBuilders.post("/employees")
                                           .contentType(MediaType.APPLICATION_JSON)
